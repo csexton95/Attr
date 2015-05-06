@@ -27,6 +27,15 @@ public class ColorAttrDriver {
 		// Number four
 		testFour = new Attr("ColorFour", "yellow");
 		System.out.println(testFour.toString());
+		//Number four is differetn from number three because it has a direct color that it is calling
+		//Number five
+		testFive = new Attr("ColorFive", "chartreuse");
+		System.out.println(testFive.toString());
+		
+		//Number Six
+		testSix = new Attr("ColorSix", "crimson");
+		System.out.println(testSix.toString());
+		
 		
 	} // end main
 }

@@ -47,6 +47,7 @@ package edu.saintjoe.cs.brianc.attr;
 		/** Set value to ScreenColor, not description */
 		public ScreenColor setValue(ScreenColor newValue) {
 			// do superclass first
+			//override
 			super.setValue(newValue.toString());
 			ScreenColor oldValue = myColor;
 			myColor = newValue;
